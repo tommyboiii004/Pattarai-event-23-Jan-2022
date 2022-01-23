@@ -9,7 +9,7 @@ Background_colour=(255,255,255)
 
 class Egg:
     def __init__(self, parent_screen):
-        self.image = pygame.image.load("resources/egg.jpg").convert()
+        self.image = pygame.image.load("resources/egg.jpg").convert()                # find the images on the issues tab in github
         self.parent_screen = parent_screen
         self.x=size*3
         self.y=size*3
@@ -27,7 +27,7 @@ class Egg:
 class Snake:
     def __init__(self, parent_screen, length):         #we are storing parent_screen as a class member        
         self.parent_screen = parent_screen
-        self.block = pygame.image.load("resources/snake 2.jpg").convert()                  #used to load the image
+        self.block = pygame.image.load("resources/snake 2.jpg").convert()                  #used to load the image       find the images on the issues tab in github
         self.direction = 'down'      #initializing the direction
 
         self.length=length
